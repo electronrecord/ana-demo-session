@@ -1,0 +1,14 @@
+@import "./styles/mixin";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.App,
+#root {
+  @include wh100;
+  @include mp0;
+  font-family: 'Roboto', sans-serif;
+}

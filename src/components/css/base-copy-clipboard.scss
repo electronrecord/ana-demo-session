@@ -1,0 +1,11 @@
+@import "../../styles/var";
+
+.base-copy-clipboard {
+  @media only screen and (min-width: 0) {
+  	color: $main-blue;
+    i {
+      display: inline-block;
+      transform: translateY(1px);
+    }
+  }
+}

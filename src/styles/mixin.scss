@@ -1,0 +1,21 @@
+@mixin wh100 () {
+  width: 100%;
+  height: 100%;
+}
+
+@mixin m0 () {
+  margin: 0;
+}
+
+@mixin p0 () {
+  padding: 0;
+}
+
+@mixin mp0 () {
+  @include m0;
+  @include p0;
+}
+
+@mixin brad ($val: 4px) {
+  border-radius: $val;
+}

@@ -1,0 +1,9 @@
+@import "../../styles/mixin";
+
+.home-page {
+  @media only screen and (min-width: 0) {
+    @include wh100;
+    padding-top: 40px;
+    background-color: #EAF1F8;
+  }
+}
